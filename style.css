@@ -1,0 +1,137 @@
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+h1 {
+	margin-bottom: 15px;
+}
+
+p {
+	border: 1px solid black;
+	border-top: none;
+	background-color: grey;
+	width: 100%;
+	margin-right: auto; 
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto; 
+	font-family: Helvetica;
+	color: white;
+}
+
+
+.row {
+	width: 100%;
+}
+
+/***Desktop view***/
+
+@media (min-width: 992px)
+{ 
+	.col-lg-3 {
+		float: left;
+		border: 2px solid black;
+		margin-left: 90px;
+	}
+
+
+.col-lg-3 {
+	width: 25%;
+}
+}
+
+/***Tablet view***/
+
+@media (min-width: 768px) and (max-width:991px)
+{ 
+	.col-md-6
+	{
+		float: left;
+	}
+
+
+.col-md-6 {
+	width: 50%;
+}
+}
+
+
+/***Mobile view***/
+
+@media (max-width:767px)
+{ 
+	.col-sm-12
+	{
+		float: left;
+	}
+
+
+.col-sm-12 {
+	width: 100%;
+}
+}
+
+
+/***Title***/
+
+.menu {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+
+
+
+/***Item***/
+
+.item1 {
+	position: relative;
+	left: 75%;
+	text-align: center;
+	background: red;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 25%;
+	height: 30px;
+	padding: 4px;
+}
+
+
+.item2 {
+	position: relative;
+	left: 75%;
+	text-align: center;
+	background: orange;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 25%;
+	height: 30px;
+	padding: 4px;
+	color: white;
+}
+
+.item3 {
+	position: relative;
+	left: 75%;
+	text-align: center;
+	background: yellow;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 25%;
+	height: 30px;
+	padding: 4px;
+}
+
+/***Paragraph***/
+
+.par {
+	padding: 15px;
+	background: #ddd;
+	color: black;
+}
+
+
+
